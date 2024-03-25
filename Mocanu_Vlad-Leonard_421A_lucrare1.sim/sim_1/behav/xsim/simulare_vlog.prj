@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Mocanu_Vlad-Leonard_421A_lucrare1.srcs/sources_1/new/aand.v" \
+"../../../../Mocanu_Vlad-Leonard_421A_lucrare1.srcs/sources_1/new/andorxor.v" \
+"../../../../Mocanu_Vlad-Leonard_421A_lucrare1.srcs/sources_1/new/comparator.v" \
+"../../../../Mocanu_Vlad-Leonard_421A_lucrare1.srcs/sources_1/new/mux.v" \
+"../../../../Mocanu_Vlad-Leonard_421A_lucrare1.srcs/sources_1/new/mux4.v" \
+"../../../../Mocanu_Vlad-Leonard_421A_lucrare1.srcs/sources_1/new/oor.v" \
+"../../../../Mocanu_Vlad-Leonard_421A_lucrare1.srcs/sources_1/new/sumator.v" \
+"../../../../Mocanu_Vlad-Leonard_421A_lucrare1.srcs/sources_1/new/top.v" \
+"../../../../Mocanu_Vlad-Leonard_421A_lucrare1.srcs/sources_1/new/xoor.v" \
+"../../../../Mocanu_Vlad-Leonard_421A_lucrare1.srcs/sim_1/new/simulare.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
